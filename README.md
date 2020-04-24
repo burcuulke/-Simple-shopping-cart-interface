@@ -1,1 +1,1 @@
-# -Simple-shopping-cart-interface
+# SimpleShoppingCartInterface
