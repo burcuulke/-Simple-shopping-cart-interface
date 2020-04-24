@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>shopping</title>
+<script>
+function purchase()
+	{
+		
+	var str="";
+	var check=false;
+		if(document.getElementById("c1").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q1").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c2").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q2").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c3").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q3").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c4").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q4").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c5").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q5").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c6").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q6").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket Bat,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c7").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q7").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket Bat,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c8").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q8").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket Bat,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c9").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q9").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket Bat,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c10").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q10").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket Bat,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c11").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q11").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket Bat,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c12").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q12").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket Bat,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c13").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q13").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket Bat,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c14").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q14").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket Bat,"+qty+","+price+","+total;
+			}
+		if(document.getElementById("c15").checked)
+			{
+				check=true;
+				var qty=document.getElementById("q15").value;
+				var price=1210;
+				var total= qty*price;
+				str+=":Cricket Bat,"+qty+","+price+","+total;
+			}
+		if(!check)
+		{
+			alert("Please Select Any One Product");
+			return false;
+		}
+		else{
+			alert("Product purchase succesfully");
+			localStorage.setItem('basket', str);
+		}
+
+		window.location.href = "bill2.html";
+	}
+	
+	
+</script>	
+</head>
+<body>
+	<form method="post" onsubmit="return false" name="sport">
+		<div style="text-align: center;"></div>
+		<table style="text-align:  left; width: 100%;" border="0" cellpadding="20" cellspacing="20">
+			<tbody>
+				<tr>
+					<td style="text-align:center;background-color:rgb(255,255,153);"><big><big><big></big>menu</big><big></big></big></td>
+					<td style="color:red; font-family: Arial Black;"><big><big>CONTENTS</big></big></td>
+					<td><img style="width: 192px; height: 107px;" alt="logo" src="puf.jpg"></td>
+				</tr>
+	  		</tbody>
+		</table>
+		<br>
+		<table style="text-align:left; width: 100%;" border="0" cellpadding="20" cellspacing="20">
+			<!-- <tbody>
+				<tr>
+					<td style="text-align:left; width:100%" border="0" cellpadding="0" cellspacing="6"></td>
+				</tr>
+			</tbody> -->
+			<tbody>
+				<tr>
+					<td style="text-align: center; font-fmaily: Arial Narrow; background-color:silver"></td>
+					<td style="text-align: center; font-family: Arial Narrow; background-color:blueviolet"></td>
+				</tr>
+			
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>1</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q1" size="3" name="q1">&nbsp;Add<input id="c1" name="c1" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>2</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q2" size="3" name="q2">&nbsp;Add<input id="c2" name="c2" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>3</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q3" size="3" name="q3">&nbsp;Add<input id="c3" name="c3" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>4</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input   id="q4" size="3" name="q4" >&nbsp;Add<input id="c4" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>5</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q5" size="3" name="q5">&nbsp;Add<input id="c5" name="c5" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Arial, Helvetica, sans-serif; background-color:lightblue"><big>6</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q6" size="3" name="q3">&nbsp;Add<input id="c6" name="c6" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>7</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q7" size="3" name="q7">&nbsp;Add<input id="c7" name="c7" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>8</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q8" size="3" name="q8">&nbsp;Add<input id="c8" name="c8" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>9</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q9" size="3" name="q9">&nbsp;Add<input id="c9" name="c9" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>10</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q10" size="3" name="q10">&nbsp;Add<input id="c10" name="c10" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>11</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q11" size="3" name="q11">&nbsp;Add<input id="c11" name="c11" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>12</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q12" size="3" name="q12">&nbsp;Add<input id="c12" name="c12" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>13</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q13" size="3" name="q13">&nbsp;Add<input id="c13" name="c13" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>14</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q14" size="3" name="q14">&nbsp;Add<input id="c14" name="c14" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center; font-family: Berlin Sans FB; background-color:lightblue"><big>15</big></td>
+					<td><img style="width:113px; height:102px;" alt="" src="puf.jpg">&nbsp;Quantity<input id="q15" size="3" name="q15">&nbsp;Add<input id="c15" name="c15" type="checkbox"></td>
+				</tr>
+				<tr>
+					<td><small><small></small></small></td>
+					<td><input name="reset" value="RESET" type="reset">&nbsp;&nbsp;<input name="submit" value="SEPETIM" type="submit" onclick="return purchase()"></td>
+					
+				</tr>
+			</tbody>
+		</table>
+			
+	</form>	
+</body>
+</html>
